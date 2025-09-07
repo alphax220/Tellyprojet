@@ -1,0 +1,108 @@
+body
+{
+    background: #90DFE4;
+    background: linear-gradient(90deg,rgba(144, 223, 228, 1) 0%, rgba(129, 134, 218, 1) 100%);
+
+}
+
+.box
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+    width: 80%;
+}
+
+
+.card
+{
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #7b81bb;
+}
+.mypic
+{
+    
+    
+    width: 300px;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.stat
+{
+    margin: 20px;
+    padding: 5px;
+    width: 70px;
+    border-radius: 10px;
+    background: linear-gradient(181deg,rgba(78, 122, 187, 1) 0%, rgba(128, 206, 255, 1) 53%, rgba(116, 191, 223, 1) 100%);
+    font-weight: bold;
+    color: white;
+}
+
+.stat2
+{
+    margin: 20px;
+    font-weight: bold;
+}
+
+span
+{
+    padding: 5px;
+}
+
+
+
+.orange
+{
+    background: #ede6c0;
+    background: linear-gradient(181deg, rgba(237, 230, 192, 1) 0%, rgba(187, 157, 121, 1) 100%);
+}
+
+.red
+{
+    background: #B54C50;
+    background: linear-gradient(181deg, rgba(181, 76, 80, 1) 0%, rgba(250, 119, 135, 1) 100%);
+}
+
+
+
+.prof
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.infos
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.nom
+{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.post
+{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
