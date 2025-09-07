@@ -122,3 +122,11 @@ span
 {
     background-color: orange;
 }
+
+@media all and (max-width:900px)
+{
+    .box
+    {
+        flex-wrap: wrap;
+    }
+}
