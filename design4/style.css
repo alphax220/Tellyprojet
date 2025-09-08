@@ -1,0 +1,174 @@
+body
+{
+    background-color: #e64647;
+}
+
+.boxgris
+{
+    display: flex;
+    background-color: #d9d9d9;
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #9c3532;
+}
+
+.bloc
+{
+    flex: 2;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 10px #9c3532;
+    display: flex;
+    flex-direction: column;
+    background-color: #e64647;
+    width: 80%;
+   
+    
+}
+
+.text
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.first
+{
+    text-align: left;
+    color: #e64647;
+    font-weight: bold;
+}
+
+.second
+{
+    text-align: left;
+    color:#d9d9d9 ;
+    font-weight: bold;
+    background-color: #e64647 ;
+    font-style: italic;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.head
+{
+    width: 98%;
+    height: 60px;
+    background-color: #335cb4;
+    margin: 5px;
+    margin-bottom: 2px;
+    text-align: center;
+    
+}
+
+.bod
+{
+    display: flex;
+    
+   
+    
+
+}
+
+.bodo
+{
+
+    background-color: #6781bc;
+    flex: 3;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.foot
+{
+    width: 98%;
+    height: 80px;
+    background-color: #335cb4;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+.bodo1
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #6781bc;
+    margin: 10px;
+    gap: 30px;
+    
+}
+
+.bodo1d
+{
+    flex: 1;
+    height: 350px;
+    background-color: #6781bc;
+   
+}
+
+.bodo2
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+}
+
+.bd1
+{
+    flex: 2;
+    text-align: center;
+}
+
+.bd2
+{
+ flex: 1;   
+ text-align: center;
+}
+
+.textb
+{
+    color: #ecf9ff;
+    font-weight: bold;
+   
+    align-self: center;
+}
+
+
+.lien
+{
+    
+    text-decoration: none;
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+}
+
+.lien:hover
+{
+    background-color: orange;
+}
+
+
+@media all and (max-width:800px)
+{
+    .boxgris
+    {
+        flex-wrap: wrap;
+        height: 900px;
+    }
+}
